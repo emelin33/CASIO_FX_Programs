@@ -13,3 +13,11 @@ Please share this with others who have that calculator, or a calculator of that 
 # To Install Python Files:
 1) Connect Calculator to Computer
 2) Drag in files
+
+# To Use Python Programs:
+1) Install Program as directed above
+2) Disconnect calculator (after ejecting!!!)
+
+# To use CASIOBASIC Programs:
+1) Type in the password: (most files have '55' as the default password, except for one, which I'll end up fixing soon)
+2) Use the Program
