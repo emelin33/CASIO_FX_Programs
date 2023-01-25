@@ -1,0 +1,23 @@
+'ProgramMode:RUN
+"PASS"?->A
+If A=55
+Then 
+"GOOD PASS"
+Menu "FORMULAS AND CALCULATE","AREA",A,"HEIGHT",B,"PERIMETER",C,"QUIT",D
+Lbl A
+"FORMULA IS"
+"(H_*_B)_/_2"
+"USE TRICALCA PROGRAM TO CALC PYTHON"
+Stop
+Lbl B
+"FORMULA IS"
+"H=2_*_(A_/_B)"
+Stop
+Lbl C
+"FORMULA IS THE FOLLOWING"
+"P=A_+_B_+_C"
+Stop
+Lbl D
+Stop
+Else "WRONG, BYE"
+IfEnd
