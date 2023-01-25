@@ -1,0 +1,24 @@
+'ProgramMode:RUN
+"PASS"?->A
+If A=102505
+Then 
+"GOOD PASS"
+"PUSH 1 FOR SA"
+"PUSH 2 FOR VOL"?->Z
+If Z=1:Then Goto 2
+Else If Z=2:Then Goto 3
+Else Stop
+IfEnd
+Lbl 2
+"RAD"?->R
+"HGT"?->H
+(2R)->D
+(D*pi*H)+2(R^2*pi)DispsStop
+Lbl 3
+"RAD"?->R
+"HGT"?->H
+(R^2*pi)H->S
+S
+Else "WRONG, BYE"
+Stop
+IfEnd
